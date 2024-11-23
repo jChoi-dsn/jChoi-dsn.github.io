@@ -1,0 +1,432 @@
+html {
+    font-size: 62.5%;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: 'valera';
+    src: url(../font/Varela-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat-Regular.ttf) format('truetype');
+}
+
+
+#fullpage > section {
+    height: 980px;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    right: 70px;
+    width: 544px;
+    height: 113px;
+    z-index: 100;
+}
+
+#header .h_box {
+    display: block;
+    position: relative;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+    transition: 200ms ease-in-out;
+}
+
+#header .h_box:hover {
+    color: black;
+    background-color: white;
+}
+
+.topbar {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    left: 0;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+    z-index: 100;
+}
+.left {
+    left: 70px;
+}
+
+
+#section01 {
+    background: #000;
+    position: relative;
+}
+
+#section01 .wave {
+    position: absolute;
+    width: 2527px;
+    height: 916px;
+    top: 10px;
+    left: -127px;
+}
+
+#section01 .title {
+    position: absolute;
+    left: 450px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 7px #000;
+}
+
+#section01 .up {
+    top: 280px;
+    font-size: 6.5rem;
+}
+#section01 .down {
+    top: 380px;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+#section01 .scroll {
+    position: absolute;
+    bottom: 157px;
+    right: 511px;
+    font-size: 1.2rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+#section01 .line {
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    bottom: 33px;
+    right: 535px;
+    background-color: white;
+}
+
+
+#section02 {
+    background: #000;
+    position: relative;
+}
+
+#section02 .topbox {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 113px;
+    background-color: rgb(18, 18, 18);
+}
+#section02 .topline {
+    position: absolute;
+    top: 114px;
+    width: 100vw;
+    height: 1px;
+    background-color: rgb(91, 91, 91);
+}
+
+#section02 .works {
+    position: absolute;
+    display: flex;
+    top: 275px;
+    left: 280px;
+    z-index: 90;
+}
+#section02 .works div + div {
+    margin-left: 230px;
+}
+
+#section02 img {
+    cursor: pointer;
+}
+
+#section02 .work1 {
+    position: relative;
+}
+
+#section02 .work1 .work1-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+}
+#section02 .work1 .work1-image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+/* 숫자 만들기 */
+#section02 .work1 .num1::before {
+    content: '1';
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -33px;
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 200ms ease-in-out;
+}
+#section02 .work1 .num1:hover::before {
+    color: rgb(160, 160, 160);
+}
+/* 숫자 만들기 끝*/
+
+#section02 .work1 .work1-image-wrapper img {
+    position: absolute;
+}
+
+#section02 .work2 {
+    position: relative;
+}
+
+#section02 .work2 .work2-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+}
+#section02 .work2 .work2-image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+#section02 .work2 .num2::before {
+    content: '2';
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -33px;
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 200ms ease-in-out;
+}
+#section02 .work2 .num2:hover::before {
+    color: rgb(160, 160, 160);
+}
+
+#section02 .work2 .work2-image-wrapper img {
+    position: absolute;
+}
+
+#section02 .work3 {
+    position: relative;
+}
+
+#section02 .work3 .work3-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+}
+#section02 .work3 .work3-image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+#section02 .work3 .num3::before {
+    content: '3';
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -33px;
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 200ms ease-in-out;
+}
+#section02 .work3 .num3:hover::before {
+    color: rgb(160, 160, 160);
+}
+
+#section02 .work3 .work3-image-wrapper img {
+    position: absolute;
+}
+
+#section02 .works .text_up {
+    position: absolute;
+    left: 0;
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(136, 136, 136);
+}
+#section02 .works .text_down {
+    position: absolute;
+    left: 0;
+    margin-top: 68px;
+    font-size: 2rem;
+    font-family: 'valera', sans-serif;
+    line-height: 2.8rem;
+    color: white;
+}
+
+#section02 .works .button {
+    display: block;
+    position: absolute;
+    top: 540px;
+    left: 0;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#section02 .button p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+
+#section02 .verline {
+    position: absolute;
+    display: flex;
+    top: 275px;
+    left: 700px;
+    z-index: 10;
+}
+#section02 .verline .line1 {
+    width: 1px;
+    height: 600px;
+    background-color: rgb(91, 91, 91);
+}
+#section02 .verline .line2 {
+    width: 1px;
+    height: 600px;
+    background-color: rgb(91, 91, 91);
+}
+#section02 .verline div + div{
+    margin-left: 530px;
+}
+
+
+#section03 {
+    background: rgb(18, 18, 18);
+    position: relative;
+}
+
+#section03 .chair {
+    position: absolute;
+    width: 1150px;
+    height: 980px;
+    top: 305px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#section03 .aboutme {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    z-index: 10;
+}
+
+#section03 .aboutme .title {
+    font-size: 6rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(205, 205, 205);
+}
+#section03 .aboutme .contents {
+    margin-top: 50px;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+
+#section03 .photo {
+    position: absolute;
+    top: 220px;
+    right: 300px;
+    width: 400px;
+    height: 600px;
+}
+
+#section03 .photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#section03 .bar {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    width: 100vw;
+    height: 130px;
+}
+
+#section03 .address {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100px;
+    font-size: 2.4rem;
+    font-family: 'valera', sans-serif;
+}
+#section03 .address a {
+    color: rgb(205, 205, 205);
+    display:inline-block; 
+    margin:0;
+    cursor: pointer;
+}
+#section03 .address a + a {
+    margin-left: 60px;
+}
+
+#section03 .address a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px white;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+#section03 .address a:hover {
+    color: white;
+}
+
+#section03 .address a:hover:after {
+    transform: scaleX(1);
+}
+
+
+#section04 {
+    background: #000;
+    position: relative;
+}
+
+#section04 .topbutton {
+    position: absolute;
+    z-index: 100;
+    bottom: 85px;
+    right: 97px;
+    cursor: pointer;
+}
+
+
+/* #footer,
+#footer .fp-tableCell {
+    height: 160px !important;
+    background: gray;
+} */
