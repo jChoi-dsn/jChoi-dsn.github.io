@@ -410,13 +410,6 @@ html {
     transform: scaleX(1);
 }
 
-#section03 .topbutton {
-    position: absolute;
-    z-index: 100;
-    bottom: 120px;
-    right: 100px;
-    cursor: pointer;
-}
 
 /* #footer,
 #footer .fp-tableCell {
