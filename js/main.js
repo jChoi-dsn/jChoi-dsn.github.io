@@ -45,12 +45,7 @@ $(document).ready(function() {
             } else {//02 = false
 
             }
-            if(index == 4){// 04 = true
-
-            } else {//02 = false
-
-            }
-
+     
         },
 
         onLeave: function(index, destination, direction){
@@ -66,12 +61,7 @@ $(document).ready(function() {
 
             }
 
-            if(index == 3 && direction == 'down'){//03 -> 04
-
-            } else if(index == 3 && direction == 'up'){//03 -> 02
-
-            }
-            if(index == 4 && direction == 'up'){//04 -> 03
+            if(index == 3 && direction == 'up'){//03 -> 02
                 
             }
 
