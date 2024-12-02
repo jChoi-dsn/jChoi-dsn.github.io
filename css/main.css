@@ -410,20 +410,13 @@ html {
     transform: scaleX(1);
 }
 
-
-#section04 {
-    background: #000;
-    position: relative;
-}
-
-#section04 .topbutton {
+#section03 .topbutton {
     position: absolute;
     z-index: 100;
     bottom: 85px;
     right: 97px;
     cursor: pointer;
 }
-
 
 /* #footer,
 #footer .fp-tableCell {
