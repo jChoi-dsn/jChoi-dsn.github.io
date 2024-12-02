@@ -346,7 +346,7 @@ html {
 }
 #section03 .aboutme .contents {
     margin-top: 50px;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     line-height: 4.2rem;
     font-family: 'valera', sans-serif;
     color: white;
@@ -413,8 +413,8 @@ html {
 #section03 .topbutton {
     position: absolute;
     z-index: 100;
-    bottom: 100px;
-    right: 97px;
+    bottom: 120px;
+    right: 100px;
     cursor: pointer;
 }
 
